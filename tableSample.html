@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table sample</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--
+        fontsawesome
+        https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+        https://fontawesome.com/v4/icons/
+    -->
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid #ddd;
+        }
+
+        th{
+            background-color: #f2f2f2;
+        }
+
+        .actions{
+            text-align: center;
+        }
+
+        tbody tr:hover{
+            background-color: #ff0000;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <table id="tabela-teste" class="tabela-class">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data nascimento</th>
+                <th>Profissão</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>10/05/1998</td>
+                <td>Engenheiro de software</td>
+                <td class="actions">
+                   <a href="#"><i class="fas fa-edit"></i></a>
+                   <a href="#"><i class="fas fa-trash"></i></a> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pedro</td>
+                <td>15/03/1990</td>
+                <td>Engenheiro de produção</td>
+                <td class="actions">
+                    <a href="#"><i class="fas fa-edit"></i></a>
+                    <a href="#"><i class="fas fa-bed"></i></a> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>18/07/1980</td>
+                <td>Médica</td>
+                <td class="actions">
+                    <a href="#"><i class="fas fa-edit"></i></a>
+                    <a href="#"><i class="fas fa-trash"></i></a> 
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+
+
+</body>
+</html>
